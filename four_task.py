@@ -18,8 +18,3 @@ def find_equal(A, B):
 
     result = [binary_search(A, b) for b in B]
     return result
-
-A = [1, 2, 4, 5, 6, 8, 10]
-B = [0, 3, 5, 7, 10, 12]
-
-print(find_equal(A, B))
